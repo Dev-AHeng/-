@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/app_name"
+    android:notificationTimeout="100" />
+
+<!--
+设置了一下onKeyEvent()才会生效  用于监听物理按键
+android:accessibilityFlags="flagRequestFilterKeyEvents"
+android:canRequestFilterKeyEvents="true"-->
+<!--<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:accessibilityEventTypes="typeAllMask"-->
+<!--    android:accessibilityFeedbackType="feedbackGeneric"-->
+<!--    android:accessibilityFlags="flagRequestFilterKeyEvents|flagDefault|flagEnableAccessibilityVolume"-->
+<!--    android:canRequestFilterKeyEvents="true"-->
+<!--    android:canRetrieveWindowContent="true"-->
+<!--    android:description="@string/app_name"-->
+<!--    android:notificationTimeout="100"/>-->
